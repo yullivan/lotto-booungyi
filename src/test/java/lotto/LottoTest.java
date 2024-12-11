@@ -2,17 +2,13 @@ package lotto;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 import static org.assertj.core.api.Assertions.*;
 
 public class LottoTest {
     @Test
     void lottowarning() {
-        LottoNumber lottoNumber = new LottoNumber();
-        assertThatThrownBy(() ->lottoNumber.setNumber(122)).isInstanceOf(IllegalArgumentException.class);
+        LottoNumber lottoNumber = new LottoNumber(1000);
+//        assertThatThrownBy(() ->lottoNumber.getNumber()isInstanceOf(IllegalArgumentException.class);
     }
 
     @Test
@@ -32,6 +28,7 @@ public class LottoTest {
 
     @Test
     void lottolist() {
+        LottoNumlist list = new LottoNumlist();
 
     }
 

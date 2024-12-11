@@ -12,11 +12,8 @@ public class LottoList {
         for (int i = 1; i <= 45; i++) {
             list.add(i);
         }
-
-        LottoNumber number = new LottoNumber();
         Collections.shuffle(list);
         list = list.subList(0, 6);
-
         return list;
     }
 
