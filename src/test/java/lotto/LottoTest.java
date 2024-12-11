@@ -2,6 +2,10 @@ package lotto;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.*;
 
 public class LottoTest {
@@ -25,4 +29,10 @@ public class LottoTest {
 
         assertThat(count.getCount()).isEqualTo(1);
     }
+
+    @Test
+    void lottolist() {
+
+    }
+
 }

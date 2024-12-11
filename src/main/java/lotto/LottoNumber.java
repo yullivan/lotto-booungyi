@@ -9,4 +9,8 @@ public class LottoNumber {
         }
         this.number = number;
     }
+
+    public int getNumber() {
+        return number;
+    }
 }
